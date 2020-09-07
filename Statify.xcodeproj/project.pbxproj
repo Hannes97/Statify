@@ -26,6 +26,7 @@
 		D1FEA9142506558C00B24B80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1FEA9162506558C00B24B80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1FEA91D250659C400B24B80 /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyiOS.framework; sourceTree = "<group>"; };
+		D1FEA91F25065ACB00B24B80 /* Statify-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Statify-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +67,7 @@
 				D1FEA90E2506558C00B24B80 /* Assets.xcassets */,
 				D1FEA9132506558C00B24B80 /* LaunchScreen.storyboard */,
 				D1FEA9162506558C00B24B80 /* Info.plist */,
+				D1FEA91F25065ACB00B24B80 /* Statify-Bridging-Header.h */,
 				D1FEA9102506558C00B24B80 /* Preview Content */,
 			);
 			path = Statify;
