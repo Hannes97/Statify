@@ -13,6 +13,7 @@
 		D1FEA90F2506558C00B24B80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1FEA90E2506558C00B24B80 /* Assets.xcassets */; };
 		D1FEA9122506558C00B24B80 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1FEA9112506558C00B24B80 /* Preview Assets.xcassets */; };
 		D1FEA9152506558C00B24B80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1FEA9132506558C00B24B80 /* LaunchScreen.storyboard */; };
+		D1FEA91E250659C400B24B80 /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1FEA91D250659C400B24B80 /* SpotifyiOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D1FEA9112506558C00B24B80 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D1FEA9142506558C00B24B80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1FEA9162506558C00B24B80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1FEA91D250659C400B24B80 /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyiOS.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1FEA91E250659C400B24B80 /* SpotifyiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				D1FEA9072506558B00B24B80 /* Statify */,
 				D1FEA9062506558B00B24B80 /* Products */,
+				D1FEA91C250659B500B24B80 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +77,14 @@
 				D1FEA9112506558C00B24B80 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D1FEA91C250659B500B24B80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1FEA91D250659C400B24B80 /* SpotifyiOS.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,6 +300,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Statify/Preview Content\"";
 				DEVELOPMENT_TEAM = 6N4BH74MV8;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Statify/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -308,6 +324,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Statify/Preview Content\"";
 				DEVELOPMENT_TEAM = 6N4BH74MV8;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Statify/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
